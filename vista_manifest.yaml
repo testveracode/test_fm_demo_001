@@ -1,0 +1,21 @@
+version: 1
+
+repository:
+  name: "test_fm_demo_001"
+  full_name: "testveracode/test_fm_demo_001"
+  branch: "test_sample_code"
+  commit_sha: "c05f40cce2dc6ef2634da3f2fb1b6173ca742935"
+
+business_application:
+  name: "Payments"
+  criticality: "HIGH"
+
+veracode:
+  profile_name: "Payments"
+  policy_name: "Sysco Very High and High Vulnerability Protect"
+  app_guid: "6963b47b-09fd-48b8-bb5b-e061c4789c2c"
+
+App sec platform:
+  managed: true
+  generated_by: "App sec platform - context-resolver"
+  generated_at: "2026-06-22T19:16:58.623Z"
